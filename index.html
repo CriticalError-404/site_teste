@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <!-- revolution slider -->
+    <script type="application/javascript" src="rpie.js"></script>
     <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
     <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
     <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
@@ -46,6 +47,14 @@
     <script src="https://kit.fontawesome.com/1e592b5726.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./searchBar.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-pie.min.js"></script>
+    <style type="text/css">      
+    #container { 
+        width: 100%; height: 100%; margin: 0; padding: 0;
+        border-radius: 19px; 
+      } 
+    </style>
 <style>
     .li{
         list-style: none;
@@ -53,16 +62,12 @@
 </style>
 </head>
 
-<body style="background-color: rgba(201, 199, 199, 0.877);">
+<body style="background-color: rgb(235, 235, 235);">
     <div class="header">
         <div class="menus">
             <div class="direita">
                 <p style="position: absolute;left:60px; flex-direction:top; top:26px;">Felipe Barros</p>
-                <div class="foto">
-                    <div class="foto1" style="border-radius: 100px; float: left;margin-top: 15px;">
-                        <img src="https://292aa00292a014763d1b-96a84504aed2b25fc1239be8d2b61736.ssl.cf1.rackcdn.com/PostImagem/35530/fotografia-em-preto-e-branco-como-tirar-fotos-lindas_o1ebs6nf0m18i41g3kmrq1lntfbke.jpg">                
-                    </div> 
-                </div>
+                
             </div>
             <div class="col-6 col-md-4">
                 <div class="busca"><input type="text" id="campo_busca" placeholder="O que você esta procurando?" class="idem"></div> 
@@ -178,28 +183,120 @@
                     <span><i class='bx bxs-user-check'></i></span> <a class="txt1">usuarios cadastrados</a>
                     <p class="txtcond">000126</p>
                 </div>
+                <div class="view">
+                    <a class="views"><span><i class='bx bx-show'></i></span></a><a class="txtvisit">visita</a>
+                    <p class="txtcond1">1.520</p>
+                    <a class="share"><span><i class='bx bx-download'></i></span></a><a class="txtshare">All Share</a>
+                    <p class="txtcond2">1520</p>
+                </div>
             </li>
         </div>
         <div class="desenvolvimento2">
-            TESTE  
+            <li>
+                <div class="icontype">
+                    <a class="iconanalisys"><span><i class='bx bx-message-alt-minus'></i></span></a><a class="txtanalistic">Analystic</a>
+                </div>  
+            </li>
+            <li>
+                <a style="margin-left: -90px; margin-top: 20px;">woman</a><progress id="file" value="63" max="100" style="margin-top: 40px; margin-left:10px;"><a class="txtprog">32%</a></progress>
+            </li>
+            <li>
+            <a style="margin-top: -6px;">man</a><progress id="file" value="39" max="100" style="margin-top: 10px; margin-left: 30px;"><a class="txtprog">32%</a></progress>
+            </li>
+            <li>
+            <a>others</a><progress id="file" value="21" max="100" style="margin-top: 9px; margin-left: 20px;"><a class="txtprog">32%</a></progress>
+            </li>       
         </div>
         <div class="desenvolvimento3">
-            TESTE
-        </div>
+            <li>
+                <div id="container"></div>
+            </li>
         <div class="desenvolvimento">
-            TESTE
+            <li>
+                <div class="texto-vrd">
+                    <p class="txt3" style="float: left; margin-top: 10px;">"se tu o desejas, podes voar, só tens que confiar muito em ti" steve jobs</p>
+                </div>  
+                <div class="redes-scl">
+                    <a class="insta" href="#"><span><i class='bx bxl-instagram'></i></span></a>
+                    <a class="face" href="#"><span><i class='bx bxl-facebook'></i></span></a>
+                    <a class="spotify" href="#"><span><i class='bx bxl-spotify' ></i></span></a>
+                    <a class="youtube" href="#"><span><i class='bx bxl-youtube' ></i></span></a>
+                    <a class="tt" href="#"><span><i class='bx bxl-twitter' ></i></span></a>
+                </div>  
+            </li>
         </div>
          <div class="desenvolvimento-1">
-            TESTE
+            <li>
+                <div class="formstyle1">
+                    <p class="t1">12</p>
+                    <p class="t2">Artists</p>
+                    <span class="iconeart"><i class='bx bxs-star' undefined ></i></span>
+                </div>
+                <div class="formstyle2">
+                    <p class="t3">09</p>
+                    <p class="t4">producer</p>
+                    <span class="iconeproducer"><i class='bx bxs-parking' undefined ></i></span>
+                </div>
+                <div class="formstyle3">
+                    <p class="t5">21</p>
+                    <p class="t6">Label</p>
+                    <span class="iconelabel"><i class='bx bxs-disc'></i></span>
+                </div>
+                <div class="formstyle4">
+                    <p class="t7">06</p>
+                    <p class="t8">brand</p>
+                    <span class="iconbrand"><i class='bx bxl-discourse bx-rotate-90' ></i></span>
+                </div>
+            </li>    
         </div>
         <div class="desenvolvimento-2">
-            TESTE
+            <div class="fotodev">
+                <p>LAST NEWS</p>
+                <span class="iconuser"><i class='bx bx-user-circle'></i></span>
+                <p class="nomepessoa">Marcelo Rocha</p>
+                <div class="txt9">
+                    <p class="t9">Racionais MC's é um grupo brasileiro de rap, que surgiu em 1988, na coletânea Consciência Black, com as musica Panico na Zona Sul e Tempos Dificeis. As letras do grupo tem como objetivo mostrar a desigualdade social brasileira, abordando diversos temas como crime e injustiças</p>
+                </div>
+            </div>
         </div>
         <div class="desenvolvimento-3">
-            TESTE
+            <li>
+                <div class="src1">
+                    <div class="ft">
+                        <span class="iconusuario"><i class='bx bx-user-circle'></i></span>
+                    <p class="nameuser">Felipe Barros</p>
+                    <p class="t10">enviou um novo single de um album: A Lua, O Sol e as Estrelas</p>
+                </div>
+            </li>
+            <li>
+                <div class="src2">
+                    <div class="ft">
+                        <span class="iconusuario2"><i class='bx bx-user-circle'></i></span>
+                        <p class="nameuser2">Felipe Barros</p>
+                        <p class="t10">enviou um novo single de um album: A Lua, O Sol e as Estrelas</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="src3">
+                    <div class="ft">
+                        <span class="iconusuario3"><i class='bx bx-user-circle'></i></span>
+                        <p class="nameuser3">Felipe Barros</p>
+                        <p class="t10">enviou uma nova mensagem: OLA,...</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="src4">
+                    <div class="ft">
+                        <span class="iconusuario3"><i class='bx bx-user-circle'></i></span>
+                        <p class="nameuser3">Felipe Barros</p>
+                        <p class="t10">enviou um novo single de um album: A Lua, O Sol e as Estrelas</p>
+                    </div>
+                </div>
+            </li>
         </div>
     </div> 
-    
     
     <!-- Ion Icons scripts -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -231,7 +328,22 @@
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->    
-    
+        <script>
+
+var data = anychart.data.set([
+  ['Osasco', 35],
+  ['Sao Paulo', 29],
+  ['Rio de Janeiro', 11],
+  ['Belo Horizonte', 10],
+  ['Los Angeles', 8],
+  ['Paris', 7]
+]);
+var chart = anychart.pie(data)
+// set the chart radius making a donut chart
+chart.innerRadius('55%');
+chart.container('container');
+chart.draw();
+                </script>
         <script>
             // Menu toggle
             let menuToggle = document.querySelector('.toggle');
@@ -376,6 +488,7 @@
             }; /* END OF ON LOAD FUNCTION */
         }()); /* END OF WRAPPING FUNCTION */
     </script>
+
 </body>
 
 </html>
