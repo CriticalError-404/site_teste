@@ -10,7 +10,7 @@
 
 body {
     min-height: 100vh;
-    background-color: gray;
+    background-color: rgb(235, 235, 235);
     display:flex;
 }
 
@@ -380,68 +380,77 @@ img{
 
 
 .desenvolvimento{
-    margin-top:80px;
-    margin-left: -1080px;
+    margin-top:25px;
+    margin-left: 0px;
     width: 690px;
     height: 40px;
-    background-color: green;
+    background-color: rgba(192, 189, 189, 0.842);
     position: inherit;
     border-radius: 18px;
     text-align:inherit;
 }
 .desenvolvimento1{
-    background-color: rgb(199, 15, 15);
+    background-color: rgb(230, 230, 230);
     width: 290px;
     height: 110px;
     margin-left: -1080px;
     margin-top: 120px;
     border-radius: 20px;
     text-align: inherit;
+    border-style:groove;
+    border-color: #d4d3d3;
 }
 .desenvolvimento2{
     width: 290px;
-    height: 110px;
+    height: 130px;
     margin-left: -1080px;
     margin-top: 20px;
-    background-color: blue;
+    background-color: rgb(230, 230, 230);
     border-radius: 20px;
     text-align: inherit;
+    border-style:groove;
+    border-color: #d4d3d3;
 }
 .desenvolvimento3{
     width: 290px;
-    height: 110px;
+    height: 150px;
     margin-left: -1080px;
-    margin-top: 20px;
-    background-color: purple;
+    margin-top: 30px;
+    background-color: rgb(230, 230, 230);
     border-radius: 20px;
-    text-align: inherit;
+    text-align: center;
+    align-items: center;
+    border-style: groove;
 }
 .desenvolvimento-1{
     width: 320px;
     height: 170px;
-    margin-left: -715px;
-    margin-top: -496px;
-    background-color: rgb(2, 255, 179);
+    margin-left: 355px;
+    margin-top: -518px;
+    background-color: rgb(231, 231, 231);
     border-radius: 20px;
     text-align: inherit;
+    border-style:groove;
 }
 .desenvolvimento-2{
     width: 320px;
-    height: 170px;
-    margin-left: -715px;
-    margin-top: 30px;
-    background-color: rgb(200, 255, 2);
+    height: 232px;
+    margin-left: 355px;
+    margin-top: 39px;
+    background-color: rgb(180, 180, 180);
     border-radius: 20px;
     text-align: inherit;
 }
 .desenvolvimento-3{
-    background-color: rgb(255, 0, 242);
+    background-color: rgb(231, 231, 231);
     width: 280px;
     height: 500px;
-    margin-left: -330px;
-    margin-top: -370px;
+    margin-left: 750px;
+    margin-top: -450px;
     border-radius: 20px;
-    text-align: inherit;
+    text-align: center;
+    align-items: center;
+    border-style: groove;
 }
 .iconenmr1{
     font-size: 25px;
@@ -453,8 +462,305 @@ img{
 .txtcond{
     font-size: 40px;
 }
-.view{
-    width: 50px;
-    height: 150px;
-    background-color: palegreen;
+.views{
+   float: right;
+   font-size: 1.5rem;
+   margin-top: -107px;
+   margin-right: 65px;
 }
+.txt3{
+    font-size: 89.9%;
+    text-align: left;
+    margin-top:30px;
+}
+.texto-vrd{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.redes-scl{
+   text-align: center;
+}
+.insta{
+    float:right;
+    margin-top: 5px;
+    margin-right: 230px;
+    font-size: 1.5rem;
+    color:black;
+}
+.face{
+    float:right;
+    margin-right: -66px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    color:black;
+}
+.spotify{
+    float:right;
+    margin-right: -110px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    color:black;
+}
+.youtube{
+    float: right;
+    font-size: 1.5rem;
+    margin-right: -160px;
+    margin-top: 5px;
+    color:black;
+}
+.tt{
+    float: right;
+    font-size: 1.5rem;
+    margin-right: -210px;
+    margin-top: 5px;
+    color:black;
+}
+.txtvisit{
+    float: right;
+    margin-top: -105px;
+    margin-right:26px;
+}
+.txtcond1{
+    float:right;
+    margin-top: -90px;
+    margin-right: 26px;
+}
+.share{
+    float:right;
+    margin-top: -60px;
+    margin-right: 70px;
+    font-size: 1.5rem;
+}
+.txtshare{
+    float:right;
+    margin-top: -56px;
+    margin-right: 15px;
+}
+.txtcond2{
+    float: right;
+    margin-top: -38px;
+    margin-right:30px;
+}
+.iconanalisys{
+    font-size: 1.5rem;
+    float: left;
+}
+.txtanalistic{
+    float: left;
+    margin-left: 15px;
+}
+.txtprog{
+    color: black;
+}
+.formstyle1{
+    width: 62px;
+    height: 110px;
+    background-color: rgb(226, 224, 224);
+    float: left;
+    margin-top: -464px;
+    margin-left: -37px;
+    border-style: groove;
+    border-radius: 17px;
+    text-align: center;
+}
+.formstyle2{
+    width: 62px;
+    height: 110px;
+    background-color: rgb(226, 224, 224);
+    float: left;
+    margin-top: -501px;
+    margin-left: 35px;
+    border-style: groove;
+    border-radius: 17px;
+}
+.formstyle3{
+    width: 62px;
+    height: 110px;
+    background-color: rgb(226, 224, 224);
+    float: left;
+    margin-top: -501px;
+    margin-left: 109px;
+    border-style: groove;
+    border-radius: 17px;
+}
+.formstyle4{
+    width: 62px;
+    height: 110px;
+    background-color: rgb(226, 224, 224);
+    float: left;
+    margin-top: -506px;
+    margin-left: 240px;
+    border-style: groove;
+    border-radius: 17px;
+}
+.iconeart{
+    color: rgb(175, 167, 167);
+    float: right;
+    margin-top: -90px;
+    margin-right: 9px;
+    font-size: 1.9rem;
+    border-style: groove;
+    border-color: rgb(238, 238, 238);
+    background-color: rgb(233, 233, 233);
+    border-radius: 18px;
+    
+}
+.t1{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.t2{
+    font-size:12px;
+    margin-bottom: 90px;
+}
+.iconeproducer{
+    color: rgb(204, 204, 95);
+    float: right;
+    margin-top: -15px;
+    margin-right: 10px;
+    font-size: 1.9rem;
+    border-style: groove;
+    border-color: rgb(238, 238, 238);
+    background-color: rgb(233, 233, 233);
+    border-radius: 18px;
+}
+.t3{
+    font-size:24px;
+    margin-top: 15px;
+    float: right;
+    margin-right: 15px; 
+}
+.t4{
+    font-size:13px;
+    margin-top: 70px;
+}
+.iconelabel{
+    color: rgba(211, 27, 27, 0.747);
+    float: right;
+    margin-top: -16px;
+    margin-right: 09px;
+    font-size: 1.9rem;
+    border-style: groove;
+    border-color: rgb(238, 238, 238);
+    background-color: rgb(233, 233, 233);
+    border-radius: 18px;
+}
+.t5{
+    font-size: 24px;
+    float:right;
+    margin-right:15px;
+    margin-top: 15px;
+}
+.t6{
+    font-size:13px;
+    margin-top:70px;
+}
+.iconbrand{
+    color: rgba(211, 27, 27, 0.747);
+    float: right;
+    margin-top: -16px;
+    margin-right: 10px;
+    font-size: 1.9rem;
+    border-style: groove;
+    border-color: rgb(238, 238, 238);
+    background-color: rgb(233, 233, 233);
+    border-radius: 18px;
+}
+.t7{
+    font-size: 24px;
+    float:right;
+    margin-right:15px;
+    margin-top: 15px;
+}
+.t8{
+    font-size:13px;
+    margin-top:70px;
+}
+.iconuser{
+    float:left;
+    margin-top: -280px;
+    font-size: 1.9rem;
+}
+.nomepessoa{
+    margin-top:-275px;
+    float: left;
+    margin-left:45px;
+    font-size:18px;
+
+}
+.t9{
+    float: left;
+    margin-top: -225px;
+}
+.src1{  
+    width: 270px;
+    height: 90px;
+    background-color:rgb(212, 212, 212);
+    margin-top:30px;
+    border-radius: 18px;
+    border-style: groove;
+    border-color:black;
+}
+.src2{
+    width: 270px;
+    height: 80px;
+    background-color:rgb(212, 212, 212);
+    margin-top:  50px;
+    border-radius: 18px;
+    border-style: groove;
+    border-color:black;
+}
+.src3{
+    width: 270px;
+    height: 70px;
+    background-color:rgb(212, 212, 212);
+    margin-top: 35px;
+    border-radius: 18px;
+    border-style: groove;
+    border-color:black;
+}
+.src4{
+    width: 270px;
+    height: 100px;
+    background-color:rgb(212, 212, 212);
+    margin-top: 40px;
+    border-radius: 18px;
+    border-style: groove;
+    border-color:black;
+}
+.nameuser{
+    margin-top: -50px;
+    margin-left: -90px;
+}
+.iconusuario{
+    margin-top: -120px;
+    margin-left: -220px;
+    font-size: 2.6rem;
+}    
+.nameuser2{
+    margin-top: -50px;
+    margin-left: -90px;
+}
+.iconusuario2{
+    margin-top: -120px;
+    margin-left: -220px;
+    font-size: 2.6rem;
+}    
+.nameuser3{
+    margin-top: -50px;
+    margin-left: -90px;
+}
+.iconusuario3{
+    margin-top: -120px;
+    margin-left: -220px;
+    font-size: 2.6rem;
+} 
+.nameuser4{
+    margin-top: -50px;
+    margin-left: -90px;
+}
+.iconusuario4{
+    margin-top: -120px;
+    margin-left: -220px;
+    font-size: 2.6rem;
+}       
